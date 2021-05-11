@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="6" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="productInfor1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="productInfor2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="productInfor3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="productInfor4" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="productInfor5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="productInfor6" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="productInfor7" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="productInfor8" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="productInfor4" min="-2" max="-2" attributes="0"/>
+                      <Component id="productInfor3" min="-2" max="-2" attributes="0"/>
+                      <Component id="productInfor2" min="-2" max="-2" attributes="0"/>
+                      <Component id="productInfor1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="productInfor8" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="productInfor7" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="productInfor6" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="productInfor5" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="Unit6.OOP.Class.ProductInfor" name="productInfor1">
+          <Properties>
+            <Property name="image" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Product/ABC Bottle.png"/>
+            </Property>
+            <Property name="pid" type="int" value="1"/>
+            <Property name="pname" type="java.lang.String" value="ABC "/>
+            <Property name="price" type="double" value="1.5"/>
+          </Properties>
+        </Component>
+        <Component class="Unit6.OOP.Class.ProductInfor" name="productInfor2">
+          <Properties>
+            <Property name="image" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Product/Tiger Bottle.png"/>
+            </Property>
+            <Property name="pid" type="int" value="2"/>
+            <Property name="pname" type="java.lang.String" value="Tiger"/>
+            <Property name="price" type="double" value="1.5"/>
+          </Properties>
+        </Component>
+        <Component class="Unit6.OOP.Class.ProductInfor" name="productInfor3">
+          <Properties>
+            <Property name="image" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Product/Corora Bottle.png"/>
+            </Property>
+            <Property name="pid" type="int" value="3"/>
+            <Property name="pname" type="java.lang.String" value="Corona Extra"/>
+            <Property name="price" type="double" value="1.2"/>
+          </Properties>
+        </Component>
+        <Component class="Unit6.OOP.Class.ProductInfor" name="productInfor4">
+        </Component>
+        <Component class="Unit6.OOP.Class.ProductInfor" name="productInfor5">
+        </Component>
+        <Component class="Unit6.OOP.Class.ProductInfor" name="productInfor6">
+        </Component>
+        <Component class="Unit6.OOP.Class.ProductInfor" name="productInfor7">
+        </Component>
+        <Component class="Unit6.OOP.Class.ProductInfor" name="productInfor8">
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
